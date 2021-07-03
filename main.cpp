@@ -5,7 +5,7 @@ int main() {
   std::cout << "a, b, c:";
   std::cin >> a >> b >> c;
 
-  if (a < 0) {
+  if (a <= 0) {
 	std::cout << "Not a quadratic equation!" << std::endl;
   } else {
 	float discriminant = b*b - 4*a*c;
